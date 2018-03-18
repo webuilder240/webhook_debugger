@@ -1,7 +1,7 @@
 FROM ruby:2.5-slim
 
 ENV LANG C.UTF-8
-ENV RACK_ENV production
+ENV RACK_ENV deployment
 EXPOSE 9292
 
 RUN mkdir -p /usr/src/app
